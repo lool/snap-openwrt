@@ -57,7 +57,7 @@ endif
 
 define Build/Configure
 	cd $(PKG_BUILD_DIR) && \
-		$(CONFIGURE_VARS) ./configure --disable-apparmor $(CONFIGURE_ARGS)
+		$(CONFIGURE_VARS) ./configure --without-unit-tests --disable-apparmor $(CONFIGURE_ARGS)
 endef
 
 define Build/Compile
