@@ -12,9 +12,9 @@ PKG_VERSION:=1.0.40
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/lool/snap-confine
+PKG_SOURCE_URL:=https://github.com/snapcore/snap-confine
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=ad74106943f37260b7764fe0c8d3dd88a20167ba
+PKG_SOURCE_VERSION:=30f7ca1c2809fce9871be34a68202a6140d52e0e
 PKG_SOURCE:=$(PKG_VERSION).tar.gz
 
 PKG_MAINTAINER:=Matteo Croce <matteo.croce@canonical.com>
