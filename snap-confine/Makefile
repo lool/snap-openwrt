@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=snap-confine
-PKG_VERSION:=1.0.40
+PKG_VERSION:=1.0.43
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/snapcore/snap-confine
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=ea39c2927320f2f2331ed692fc122d5a70e4d9cf
+PKG_SOURCE_VERSION:=8c953510aa1313f411400f910d5b9e8b8eefc345
 PKG_SOURCE:=$(PKG_VERSION).tar.gz
 
 PKG_MAINTAINER:=Matteo Croce <matteo.croce@canonical.com>
